@@ -88,6 +88,7 @@ mat_b[,1]
 str(mat_b[,1])
 
 colnames(mat_b) = c("A", "B", "C")
+
 rownames(mat_b) <- c("row1", "row2")
 
 mat_b
@@ -124,6 +125,7 @@ res_a
 ## better
 
 rownames(res_a) <- c("record1", 'record2', "record3")
+
 
 res_a
 
